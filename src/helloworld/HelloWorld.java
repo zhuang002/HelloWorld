@@ -5,6 +5,8 @@
  */
 package helloworld;
 
+import java.util.Scanner;
+
 /**
  *
  * @author huang
@@ -16,7 +18,9 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello World!");
+        Scanner sc=new Scanner(System.in);
+        String name = sc.nextLine();
+        System.out.println("Hello World," + name +"!");
     }
     
 }
